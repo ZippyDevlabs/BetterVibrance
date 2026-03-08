@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BetterVibrance - Instant Display Color Profiles for Gamers</title>
+  <meta name="description" content="Lightweight Windows system tray app that lets you instantly switch between display color profiles with a single keypress — or automatically when your games launch.">
+  <meta name="theme-color" content="#7c3aed">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient glow effects -->
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">BV</span>
+        <span>BetterVibrance</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#comparison">Compare</a>
+        <a href="#demo">Demo</a>
+        <a href="#pricing">Pricing</a>
+        <a href="https://github.com/ZippyDevlabs/BetterVibrance/releases/latest" class="btn btn-sm" target="_blank" rel="noopener">Download</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu">
+    <a href="#features">Features</a>
+    <a href="#comparison">Compare</a>
+    <a href="#demo">Demo</a>
+    <a href="#pricing">Pricing</a>
+    <a href="https://github.com/ZippyDevlabs/BetterVibrance/releases/latest" class="btn" target="_blank" rel="noopener">Download</a>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-badges">
+        <span class="badge">Windows 10 / 11</span>
+        <span class="badge badge-green">NVIDIA Supported</span>
+        <span class="badge badge-red">AMD Experimental</span>
+      </div>
+      <h1 class="hero-title">
+        See Every Detail.<br>
+        <span class="gradient-text">Own Every Fight.</span>
+      </h1>
+      <p class="hero-sub">
+        Instantly switch display vibrance, gamma & contrast with a keypress — or let BetterVibrance auto-switch when your games launch. Lightweight, safe, anti-cheat compatible.
+      </p>
+      <div class="hero-actions">
+        <a href="https://github.com/ZippyDevlabs/BetterVibrance/releases/latest" class="btn btn-lg" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Free Trial
+        </a>
+        <a href="#comparison" class="btn btn-lg btn-outline">See It In Action</a>
+      </div>
+      <p class="hero-note">24-hour full-access trial. No credit card required.</p>
+    </div>
+  </header>
+
+  <!-- Before / After Comparison -->
+  <section id="comparison" class="section">
+    <div class="container">
+      <h2 class="section-title">The Difference Is <span class="gradient-text">Night & Day</span></h2>
+      <p class="section-sub">Drag the slider to see BetterVibrance in action. More color detail means faster target acquisition and better spatial awareness.</p>
+
+      <div class="comparisons">
+        <div class="comparison-card">
+          <div class="comparison-slider" data-before="assets/demo_1_1.png" data-after="assets/demo_1_2.png">
+            <div class="comparison-image comparison-after">
+              <img src="assets/demo_1_2.png" alt="After BetterVibrance" loading="lazy">
+            </div>
+            <div class="comparison-image comparison-before">
+              <img src="assets/demo_1_1.png" alt="Before BetterVibrance" loading="lazy">
+            </div>
+            <div class="comparison-handle">
+              <div class="comparison-line"></div>
+              <div class="comparison-knob">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </div>
+            <span class="comparison-label label-before">Before</span>
+            <span class="comparison-label label-after">After</span>
+          </div>
+        </div>
+
+        <div class="comparison-card">
+          <div class="comparison-slider" data-before="assets/demo_2_1.png" data-after="assets/demo_2_2.png">
+            <div class="comparison-image comparison-after">
+              <img src="assets/demo_2_2.png" alt="After BetterVibrance" loading="lazy">
+            </div>
+            <div class="comparison-image comparison-before">
+              <img src="assets/demo_2_1.png" alt="Before BetterVibrance" loading="lazy">
+            </div>
+            <div class="comparison-handle">
+              <div class="comparison-line"></div>
+              <div class="comparison-knob">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </div>
+            </div>
+            <span class="comparison-label label-before">Before</span>
+            <span class="comparison-label label-after">After</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Built for <span class="gradient-text">Competitive Gamers</span></h2>
+      <p class="section-sub">Every feature designed to give you the edge without getting in your way.</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          </div>
+          <h3>Vibrance, Gamma & Contrast</h3>
+          <p>Per-profile sliders with live preview as you drag. Fine-tune your display exactly how you want it.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Unlimited Profiles</h3>
+          <p>Create, duplicate, reorder, import & export profiles as <code>.bvprofile</code> files. Share setups with friends.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+          </div>
+          <h3>Global Hotkeys</h3>
+          <p>Assign key combos to any profile or cycle through them in sequence. Switch in milliseconds.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9z"/></svg>
+          </div>
+          <h3>Game Auto-Switch</h3>
+          <p>Link processes to profiles. BetterVibrance activates on launch and restores when you exit.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+          </div>
+          <h3>Audio Mute Hotkey</h3>
+          <p>Mute specific apps like games with one keypress while keeping Discord, music & everything else audible.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          </div>
+          <h3>Blue Light Filter</h3>
+          <p>Per-profile warmth slider that reduces blue light for late-night sessions. Protect your eyes without leaving your game.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/><line x1="12" y1="2" x2="12" y2="12"/></svg>
+          </div>
+          <h3>Do Not Disturb</h3>
+          <p>Automatically disables Windows notifications and toasts when your gaming profile is active. Zero distractions.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 9h2l1 3 2-6 2 6 1-3h2"/></svg>
+          </div>
+          <h3>HDR Quick Toggle</h3>
+          <p>Enable or disable Windows HDR per profile. No more digging through Settings every time you launch a game.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><rect x="8" y="5" width="8" height="4" rx="1"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+          </div>
+          <h3>Monitor Selection</h3>
+          <p>Choose exactly which displays to control. Perfect for multi-monitor setups.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Anti-Cheat Safe</h3>
+          <p>Uses standard Windows display APIs. Fully compatible with EAC, Vanguard, BattlEye, and FACEIT.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707"/><circle cx="12" cy="12" r="4"/></svg>
+          </div>
+          <h3>5 UI Themes</h3>
+          <p>Switch themes at runtime, no restart needed. Find the look that fits your setup.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+          </div>
+          <h3>Built-In Updates</h3>
+          <p>Starts with Windows and notifies you when a new version is available. Always stay up to date.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety & Transparency -->
+  <section id="safety" class="section">
+    <div class="container">
+      <div class="safety-block">
+        <div class="safety-shield">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+        </div>
+        <div class="safety-content">
+          <h2 class="safety-title">Will this get me banned? <span class="gradient-text">Not a chance.</span></h2>
+          <p class="safety-desc">BetterVibrance adjusts your monitor's color output through official display APIs — the exact same ones your GPU control panel uses. It has zero interaction with any game.</p>
+          <ul class="safety-list">
+            <li>Never modifies game files or configs</li>
+            <li>No DLL injection of any kind</li>
+            <li>Never reads or writes process memory</li>
+            <li>No hooks into running applications</li>
+            <li>Only uses standard Windows display APIs</li>
+            <li>Compatible with EAC, BattlEye, Vanguard, FACEIT</li>
+            <li>Runs as a standalone system tray app</li>
+            <li>Equivalent to changing settings in NVIDIA Control Panel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo Video -->
+  <section id="demo" class="section">
+    <div class="container">
+      <h2 class="section-title">See It <span class="gradient-text">In Action</span></h2>
+      <p class="section-sub">Watch the full walkthrough to see how quick and easy setup is.</p>
+
+      <div class="video-wrapper">
+        <div class="video-container" id="video-container">
+          <img src="https://img.youtube.com/vi/Lqyb18votPY/maxresdefault.jpg" alt="BetterVibrance Demo Video" class="video-thumbnail" id="video-thumbnail" loading="lazy">
+          <button class="video-play" id="video-play" aria-label="Play video">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Simple <span class="gradient-text">Pricing</span></h2>
+      <p class="section-sub">No subscriptions. No recurring fees. Pay once, use forever.</p>
+
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Free Trial</h3>
+            <div class="pricing-amount">&euro;0</div>
+            <p class="pricing-period">24 hours</p>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Full access to every feature
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              No credit card required
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              All features, no restrictions
+            </li>
+          </ul>
+          <a href="https://github.com/ZippyDevlabs/BetterVibrance/releases/latest" class="btn btn-outline btn-block" target="_blank" rel="noopener">Download</a>
+        </div>
+
+        <div class="pricing-card pricing-card-featured">
+          <div class="pricing-badge">Best Value</div>
+          <div class="pricing-header">
+            <h3>Lifetime License</h3>
+            <div class="pricing-amount">&euro;5</div>
+            <p class="pricing-period">One-time payment, use forever</p>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Full access to every feature
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Unlimited usage, no expiration
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              All future updates included
+            </li>
+          </ul>
+          <a href="https://buy.polar.sh/polar_cl_FvbiADfLx0OjJiMEqTGEGzTqBPy83WNc93aP62QkSoQ" class="btn btn-lg btn-block" target="_blank" rel="noopener">Buy Now</a>
+          <p class="pricing-note">Secure payment via Polar. Key delivered instantly by email.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Requirements -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">System <span class="gradient-text">Requirements</span></h2>
+      <div class="requirements">
+        <div class="req-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <div>
+            <strong>Operating System</strong>
+            <p>Windows 10 or 11 (64-bit)</p>
+          </div>
+        </div>
+        <div class="req-item">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>
+          <div>
+            <strong>Graphics Card</strong>
+            <p>NVIDIA GPU with drivers installed (AMD: experimental)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <h2 class="section-title">Ready to See the <span class="gradient-text">Difference</span>?</h2>
+      <p class="section-sub">Download BetterVibrance and start your free 24-hour trial now.</p>
+      <a href="https://github.com/ZippyDevlabs/BetterVibrance/releases/latest" class="btn btn-lg" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Free Trial
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">BV</span>
+        <span>BetterVibrance</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/ZippyDevlabs/BetterVibrance" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/ZippyDevlabs/BetterVibrance/releases/latest" target="_blank" rel="noopener">Releases</a>
+        <a href="https://github.com/ZippyDevlabs/BetterVibrance/blob/main/LEGAL.md" target="_blank" rel="noopener">Legal</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Zippy Devlabs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
