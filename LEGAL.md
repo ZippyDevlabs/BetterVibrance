@@ -29,7 +29,7 @@ BetterVibrance is a downloadable Windows desktop application (.exe) for adjustin
 
 **System requirements:** Windows 10 or 11 (64-bit) with an NVIDIA or AMD GPU.
 
-A **24-hour free trial** with full access to all features is included, allowing you to verify compatibility and evaluate the product before purchasing.
+A **7-day free trial** with full access to all features is included, allowing you to verify compatibility and evaluate the product before purchasing.
 
 ---
 
@@ -54,7 +54,7 @@ Upon purchase, you receive a **personal, non-exclusive, non-transferable license
 
 ### Permitted Use
 - Install and use the software on your personal computers.
-- Use the 24-hour free trial to evaluate the software before purchasing.
+- Use the 7-day free trial to evaluate the software before purchasing.
 
 ### Restrictions
 - **No redistribution** — you may not share, resell, sublicense, or distribute the software or your license key.

@@ -74,7 +74,7 @@
   if (videoContainer && playBtn) {
     function loadVideo() {
       const iframe = document.createElement('iframe');
-      iframe.src = 'https://www.youtube.com/embed/ckSm2_7NV9A?autoplay=1&rel=0';
+      iframe.src = 'https://www.youtube.com/embed/xsgHaFnntuY?autoplay=1&rel=0';
       iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
       iframe.allowFullscreen = true;
       videoContainer.appendChild(iframe);

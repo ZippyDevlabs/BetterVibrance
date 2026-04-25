@@ -30,7 +30,7 @@ Configure Digital Vibrance, Gamma, and Contrast per profile, choose which monito
 
 ## Demo
 
-[![Tool Demo](https://img.youtube.com/vi/ckSm2_7NV9A/0.jpg)](https://www.youtube.com/watch?v=ckSm2_7NV9A)
+[![Tool Demo](https://img.youtube.com/vi/xsgHaFnntuY/0.jpg)](https://www.youtube.com/watch?v=xsgHaFnntuY)
 
 ---
 
@@ -56,7 +56,7 @@ Configure Digital Vibrance, Gamma, and Contrast per profile, choose which monito
 - **5 UI themes** — switch at runtime, no restart required
 - **System tray operation** — toast notifications, tray menu profile switching, minimize to tray
 - **Start with Windows** and **auto-updates** built in
-- **24-hour free trial** — try every feature before you buy
+- **7-day free trial** — try every feature before you buy
 
 ---
 
@@ -71,7 +71,7 @@ Configure Digital Vibrance, Gamma, and Contrast per profile, choose which monito
 
 1. Download the latest installer from the [Releases](../../releases) page
 2. Run the installer and launch BetterVibrance
-3. Start your 24-hour free trial or enter a license key
+3. Start your 7-day free trial or enter a license key
 4. Open Settings to configure your monitors and profiles
 5. Assign hotkeys and start switching
 
@@ -79,7 +79,7 @@ Configure Digital Vibrance, Gamma, and Contrast per profile, choose which monito
 
 ## Pricing
 
-**Try it free for 24 hours** — full access to every feature, no credit card required.
+**Try it free for 7 days** — full access to every feature, no credit card required.
 
 Love it? Grab a **one-time license** — pay once, use forever. No subscription, no recurring fees.
 
