@@ -12,6 +12,8 @@ Configure Digital Vibrance, Gamma, and Contrast per profile, choose which monito
 
 ## Screenshots
 
+![BetterVibrance app interface](docs/assets/app_screen.png)
+
 ### Example 1
 
 | Before | After |
@@ -28,7 +30,7 @@ Configure Digital Vibrance, Gamma, and Contrast per profile, choose which monito
 
 ## Demo
 
-[![Tool Demo](https://img.youtube.com/vi/Lqyb18votPY/0.jpg)](https://www.youtube.com/watch?v=Lqyb18votPY)
+[![Tool Demo](https://img.youtube.com/vi/ckSm2_7NV9A/0.jpg)](https://www.youtube.com/watch?v=ckSm2_7NV9A)
 
 ---
 
